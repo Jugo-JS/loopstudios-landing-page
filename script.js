@@ -5,6 +5,6 @@ const closeMenu = document.querySelector('.close-menu')
 hamburger.addEventListener('click', function() {
     mobileMenu.style.transform = 'translateX(0)'
     closeMenu.addEventListener('click', function() {
-        mobileMenu.style.transform = 'translateX(0)'
+        mobileMenu.style.transform = 'translateX(-100%)'
     })
 })
